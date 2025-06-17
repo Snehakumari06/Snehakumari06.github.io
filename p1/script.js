@@ -11,9 +11,9 @@ document.getElementById('loginLink').addEventListener('click', function () {
 document.getElementById('createAccountForm').addEventListener('submit', function (event) {
     event.preventDefault();
     const name = document.getElementById('name').value;
-    document.getElementById('welcomeMessage').textContent = `Hey ${name}`;
+    alert('Account created successfully!');
     document.getElementById('createAccountBox').style.display = 'none';
-    document.getElementById('welcomeBox').style.display = 'block';
+    document.getElementById('loginBox').style.display = 'block';
 });
 
 document.getElementById('loginForm').addEventListener('submit', function (event) {
