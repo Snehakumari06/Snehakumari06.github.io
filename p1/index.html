@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Project1</h1>
+    <div class="container">
+        <div class="box" id="loginBox">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" id="loginEmail" placeholder="Email" required>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button type="submit">Submit</button>
+            </form>
+            <p>
+                Don't have an account? 
+                <a href="#" id="createAccountLink">Create Account</a>
+            </p>
+        </div>
+        <div class="box" id="createAccountBox" style="display: none;">
+            <h2>Create Account</h2>
+            <form id="createAccountForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="createEmail" placeholder="Email" required>
+                <input type="password" id="createPassword" placeholder="Password" required>
+                <button type="submit">Submit</button>
+            </form>
+            <p>
+                Already have an account? 
+                <a href="#" id="loginLink">Login</a>
+            </p>
+        </div>
+        <div class="box" id="welcomeBox" style="display: none;">
+            <h2>Hey</h2>
+            <p id="welcomeMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
