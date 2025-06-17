@@ -29,5 +29,6 @@ const showHome = () => {
     <h3>Welcome to the Home Page</h3>
     <p><button onclick = 'loginForm()'>Logout</button></p>
     `
-    root.innerHTML = str + "</div>"
+    root.innerHTML = str + "</div>" 
+    
 }
