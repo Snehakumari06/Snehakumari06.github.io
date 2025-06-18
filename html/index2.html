@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Form Tags</h1>
+    <hr>
+    <!-- <form action="serverfile" method="post"> -->
+        <form>
+        <p>
+            Name :
+        <!-- <input type="text" required autofocus maxlength="5" value="Sneha" readonly > -->
+         <!-- <input type="text" required autofocus maxlength="5" value="Sneha" readonly disabled> -->
+          <!-- <input type="text" required autofocus maxlength="5" value="Sneha" disabled size="10px"> -->
+           <input type="text" placeholder="enter name" required >
+    </p>
+    <button type="submit">Submit</button>
+    <input type="submit" value="Submit">
+    </form>
+    </center>
+    <br><br>
+    <hr>
+    <br>
+    <br>
+    <fieldset>
+        <h3><center>Login Form</center></h3>
+        <hr><br>
+    <form>
+        
+        <center>
+            Email : 
+        <input type="email" placeholder="enter email" required>
+        <br>
+        <br>
+        Password :
+        <input type="password" placeholder="enter password" required>
+        <br>
+        <br>
+        <button>Login</button>
+        </center>
+    </form>
+    </fieldset>
+    <br><br>
+    <hr>
+    <br><br>
+    <fieldset>
+        <h3><center>Register Form</center></h3>
+        <hr>
+        <br>
+    <form>
+        
+        <center>
+            Name :
+        <input type="text" placeholder="enter name" required>
+        <br>
+        <br>
+        Age :
+        <input type="number" placeholder="enter age">
+        <br><br>
+            Email : 
+        <input type="email" placeholder="enter email" required>
+        <br>
+        <br>
+
+        Password :
+        <input type="password" placeholder="enter password" required>
+        <br>
+        <br>
+
+        D.O.B :
+        <input type="date" required>
+        <br><br>
+        <p>
+            Domain :
+            <input type="checkbox">MERN Stack
+            <input type="checkbox">Java Stack
+            <input type="checkbox">Python Stack
+        </p>
+        <p>
+            Batch :
+            <input type="radio" name="batch">Morning Batch
+            <input type="radio" name="batch">Evening Batch
+        </p>
+        <p>
+            Course :
+            <select>
+                <!-- <select multiple> -->
+                <option  selected>Select</option>
+                <option> BE</option>
+                <option >Btech</option>
+                <option >MBA</option>
+            </select>
+        </p>
+
+        <p>
+            CV :
+            <input type="file">
+        </p>
+        <p>
+            Colour :
+            <input type="color">
+        </p>
+        <p>
+            <textarea rows="4" cols="50"></textarea>
+        </p>
+        
+        <p>
+            Country :
+            <select >
+                <option>Select</option>
+                <optgroup label="India">
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Punjab</option>
+                </optgroup>
+                <optgroup label="USA">
+                    <option>Chicago</option>
+                    <option>New York City</option>
+                    <option>Los Angeles</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="c1">Remember Me</label>
+            <input type="checkbox" id="c1">
+        </p>
+
+        <p>
+            Country :
+            <input list="country">
+            <datalist id="country">
+                <option>India</option>
+                <option>USA</option>
+                <option>South Korea</option>
+                <option>UK</option>
+            </datalist>
+        </p>
+        <button>Login</button>
+        <input type="reset">
+        </center>
+
+    </form>
+    </fieldset>
+    
+
+</body>
+</html>
