@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* inline me width is not applicable */
+        /* li{
+            display: inline;
+            width: 200px;
+        } */
+        /* in inline-block me width is applicable  */
+        li{
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+        }
+        h2 {
+            text-align: center;
+        }
+        /* flex is always in straight line */
+        /* flex direction column se upr se niche show hoga */
+        .flex {
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: lightblue;
+            height: 200px;
+        }
+        /* jitna auto utna column */
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 20px;
+            row-gap: 20px;
+            align-items: center;
+            height: 200px;
+            background-color: lightsteelblue;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <h2><u>Inline vs Inline-Block</u></h2>
+    <hr>
+    <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Project</li>
+    </ol>
+    <hr>
+    <h2><u>Flexbox </u></h2>
+    <div class="flex">
+        <div>Child1Child1Child1</div>
+        <div>Child2Child2Child2</div>
+        <div>Child3Child3 Child3</div>
+        <div>Child4Child4Child4</div>
+        <div>ChildChild5Child55</div>
+        <div>Child6Child6Child6</div>
+    </div>
+    <hr>
+    <h2><u>Grid</u></h2>
+    <div class="grid">
+        <div>Child1</div>
+        <div>Child2</div>
+        <div>Child3</div>
+        <div>Child4</div>
+        <div>Child5</div>
+        <div>Child6</div>
+    </div>
+</body>
+</html>

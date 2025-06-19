@@ -1,0 +1,46 @@
+/* tag */
+      h1,h3 {
+        border: 2px solid black;
+        text-align: center;
+        background-color: aliceblue;
+        color: darkblue;
+      }
+      /* class, it can be used for other element*/
+      .class1 {
+        border: 2px solid black;
+        text-align: center;
+        background-color: pink;
+        color: maroon;
+      }
+      /* id */
+      #dvBox {
+        border: 2px solid black;
+        background-color: lightblue;
+        color: darkblue;
+      }
+      .main{
+        border: 2px solid blue;
+      }
+      /* parent class phir uske andr sara child pr kam krega */
+      .main div{
+        border: 2px solid black;
+        text-align: center;
+        background-color: lightgreen;
+        color: darkgreen;
+      }
+      .parent {
+        border: 2px solid black;
+        background-color: lightgray;
+        width: 200px;
+        height: 300px;
+        
+      }
+      .child {
+        border: 2px solid black;
+        background-color: pink;
+        padding: 20px;
+        height: 20px;
+        width: 20px;
+        margin: 10px;
+        
+      }
